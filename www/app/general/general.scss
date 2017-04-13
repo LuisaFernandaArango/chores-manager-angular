@@ -1,0 +1,206 @@
+body {
+	width: 90%;
+    height: 100%;
+	margin: 0 auto;
+	background: $bodyPrimary;
+    font-family: 'Arvo', serif;
+
+}
+/* The code header general*/
+header {
+    background: $primary;
+    height: 30%;
+   
+   display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   display: -moz-box;      /* OLD: Firefox (buggy) */
+   display: -o-box;
+   display: -ms-flexbox;   /* MID: IE 10 */
+   display: -webkit-flex;  /* NEW, Chrome 21+ */
+   display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+   
+   .open-menu i {
+      font-size: 40px;
+      color: white;
+      margin: 100%;
+    }
+    
+    .item{
+        text-align: center;
+
+        img{        
+            width: 15%;       
+        }
+     }
+    
+}
+
+i{
+    color: $primaryDark;
+    font-size: 40px;
+
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    a:hover {
+        background: #0097a7;
+        color: #fff;
+    }
+
+    .closebtn:hover {
+        color: #fff;
+        background: none;
+    }
+
+}
+
+.profile-section {
+   
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 32px 0 0 32px;
+        border-radius: 100px;
+    }
+
+    .name-profile {
+        color: #fff;
+        padding-top: 0;
+    }
+}
+
+.sidenav a, .name-profile {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: #000;
+    white-space: nowrap;
+}
+
+.dark-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    z-index: 11;
+    display: none;
+    top: 0;
+    max-width: 1200px;
+}
+/*code css general footer*/
+footer {
+   background:#263238; 
+   height:60px;  
+   
+}
+//Codigo solo para firefox, display: flex no esta respondiendo bien mozilla 
+@-moz-document url-prefix() {
+    header {
+    background: $primary;
+    height:110px;
+    display: -moz-box;      /* OLD: Firefox (buggy) */
+    display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+   
+   .open-menu i {
+      font-size: 40px;
+      color: white;
+      margin: 30% !important;
+    }
+    
+    .item{
+        text-align: center;
+
+        img{        
+            width: 15%;       
+        }
+     }
+    
+}
+}
+//768px a 1023px
+@media only screen and (min-width: 48em) {
+   body {
+    width: 90%;
+  }
+}
+
+//Tablet
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+  body {
+    width: 100%;
+  }
+  header {  
+       display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+       display: -moz-box;      /* OLD: Firefox (buggy) */
+       display: -o-box;
+       display: -ms-flexbox;   /* MID: IE 10 */
+       display: -webkit-flex;  /* NEW, Chrome 21+ */
+       display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+       
+       .open-menu i {
+          font-size: 35px;      
+          margin: 70%;
+        }
+        
+        .item{    
+
+            img{        
+                width: 20%;       
+            }
+         }
+        
+    }
+}
+
+//Movil
+@media only screen and (min-width:320px) and (max-width: 768px){
+   body {
+    width: 100%;
+  }
+  header {  
+       display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+       display: -moz-box;      /* OLD: Firefox (buggy) */
+       display: -o-box;
+       display: -ms-flexbox;   /* MID: IE 10 */
+       display: -webkit-flex;  /* NEW, Chrome 21+ */
+       display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+       
+       .open-menu i {
+          font-size: 35px;      
+          margin: 50%;
+        }
+        
+        .item{    
+
+            img{        
+                width: 25%;       
+            }
+         }
+        
+    }
+}
+
+
+
+
+
+ 

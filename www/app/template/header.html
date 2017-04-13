@@ -1,0 +1,23 @@
+<!-- Abstract header to include in the views -->
+<header> 
+	<div class ="open-menu">
+		<i onclick="openNav()" class="material-icons">&#xE5D2;</i>
+	</div>
+	<div class="item">
+	   <img src="assets/img/logoChore.jpg" alt="">
+	</div>	
+</header>
+<div id="mySidenav" class="sidenav"> 
+	
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="profile-section">
+		<img ng-src="https://us.123rf.com/450wm/hobbitfoot/hobbitfoot1502/hobbitfoot150200566/36276072-hombre-avatar-perfil-con-una-gran-cantidad-de-iconos-ilustraci-n-vectorial.jpg?ver=6" alt="Avatar">
+		<div class="name-profile">{{$root.user.name}}</div>
+	</div>
+	<a href="#!/chores" onclick="closeNav()">Inicio</a>
+	<a href="#!/addChore" onclick="closeNav()">Agregar Tarea</a>
+	<a href="#!/finishedchores" onclick="closeNav()">Tareas Finalizadas</a>
+	<a href="#!/changepass" onclick="closeNav()">Cambiar contraseña</a>
+	<a href="javascript:void(0)" onclick="closeNav()" ng-click="$root.logOut()">Cerrar Sesión</a>
+</div>
+<div id="dark-background" class="dark-background" onclick="closeNav()"></div>

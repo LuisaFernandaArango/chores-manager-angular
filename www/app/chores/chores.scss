@@ -1,0 +1,80 @@
+.other{
+   
+    max-width: 100%;
+
+    input {   
+     
+      padding: 10px;
+    }
+}
+.container-flex{
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+	.item{
+		width: 200px;
+ 		height: 175px;
+		border: 1px solid #ccc;
+		text-align: center;
+		margin:1%;
+   		padding :1%;  
+	}
+  h4{
+    color: $primaryDark;
+  }
+	
+}
+i {
+	margin-top: 2%;
+}
+.load-more{
+	label{
+	   font-size: 22px;
+	}
+	
+}
+.load-more{
+	border: 1px solid #ccc;
+	width: 100%;
+ 	height: 50px;
+ 	text-align: center;
+}
+.contenedor  button {
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.contenedor  label {
+	display: block;
+}
+//768px a 1023px
+@media only screen and (min-width: 48em) {
+   .title-pag{
+  	margin-left: 2%;
+  }
+}
+
+//Tablet
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+  h2{
+  	font-size: 20px;
+  }
+  .title-pag{
+  	text-align: center;
+  }
+}
+
+//Movil
+@media only screen and (min-width:320px) and (max-width: 768px){
+  h2{
+  	font-size: 21px;
+  }
+  .title-pag{
+  	text-align: center;
+  }
+}

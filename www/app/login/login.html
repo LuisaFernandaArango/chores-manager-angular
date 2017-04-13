@@ -1,0 +1,12 @@
+
+<div class="header-login" ng-include="'app/template/header.html'"></div>
+
+<div class="container-table">
+	<h1>Iniciar Sesión</h1>
+	<form  ng-submit="login.login()" >
+		<input type="text" name="username" placeholder="Username" ng-model="login.user.username"  />
+		<input type="password" name="username" placeholder="Password" ng-model="login.user.password" />
+		<input type="submit" value="Aceptar" />
+	</form>
+</div>
+			

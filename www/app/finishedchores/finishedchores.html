@@ -1,0 +1,25 @@
+<div ng-include="'app/template/header.html'"></div>
+<div class="container-table other">
+		<div class="title-pag">
+			<h2>Tareas finalizadas</h2>
+		</div>	    
+		<div class="search ">
+			<input type="text" class ="search-bar" ng-model="chore.query" placeholder="Buscar">
+		</div>
+		<div class="container-flex" ng-if="vmFinishedChore.chore.length<=0" >
+			<h4>No hay Tareas Finalizadas</h4>
+		</div>
+		<div class="container-flex">
+				<div class="item" ng-repeat = "chore in vmFinishedChore.chore | filter:{'name':  chore.query}" ng-click="chore.viewDetail(chore)" >
+				
+				<div class="title" ng-click="vmChore.detail(chore)">
+					<img src="http://cdn.playbuzz.com/cdn/bd422841-c57f-4224-8208-e0177cb2136d/8d4b4c63-f9bb-4199-b591-43c4a7695fc9.jpg" style="width:40%">
+					<h3> {{chore.name}}</h3>
+					<h4>{{chore.date}}</h4>					
+				</div>
+				
+						
+			</div>
+		</div>
+	
+</div>

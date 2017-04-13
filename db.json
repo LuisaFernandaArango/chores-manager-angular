@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Luisa Fernanda",
+      "email": "luisafdarangova@gmail.com",
+      "username": "Luisa",
+      "password": "luisa123?"
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "email": "mariaValderrama@gmail.com",
+      "username": "valderrama",
+      "password": "%&valderrama2"
+    },
+    {
+      "name": "Marina",
+      "lastName": "Valenica",
+      "username": "maritrini",
+      "email": "marinavalencia@gmail.com",
+      "password": "1234=mari5",
+      "id": 3
+    },
+    {
+      "name": "Antonio",
+      "lastName": "Zapata",
+      "username": "Antonio",
+      "email": "Antonio@micorreo.net",
+      "password": "12A)*aaaa",
+      "id": 4
+    },
+    {
+      "name": "root",
+      "username": "root",
+      "email": "root@root.com",
+      "password": "ASDF10@pp",
+      "id": 5
+    },
+    {
+      "name": "Arango",
+      "identification": "2345",
+      "username": "arango",
+      "email": "arango@gmail.com",
+      "password": "12B@asdfgh",
+      "id": 6
+    }
+  ],
+  "chores": [
+    {
+      "id": 1,
+      "name": "Pasear al perro",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 2,
+      "name": "Realizar conexión",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Arango",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 3,
+      "name": "Lavar ropa ",
+      "date": "2017-09-08T05:00:00.000Z",
+      "resposable": 2,
+      "responsables": "Maria",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 4,
+      "name": "Comprar comida",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Marina",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 5,
+      "name": "Lavar carro",
+      "date": "2017-09-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "root",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 6,
+      "name": "Comprar cuaderno",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 2,
+      "responsables": "Marina",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "resposable": 1,
+      "name": "Corregir entrega",
+      "description": "Ajustar la visibilidad de los labels",
+      "responsables": "root",
+      "date": "2017-04-13T05:00:00.000Z",
+      "id": 7,
+      "state": "undone"
+    },
+    {
+      "id": 8,
+      "name": "Comprar Zapatos",
+      "date": "2017-06-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 10,
+      "name": "Arreglar el techo",
+      "date": "2017-05-04T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "root",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 11,
+      "name": "Requerimientos Funcionales",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 12,
+      "name": "Implementar login",
+      "date": "2017-05-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 13,
+      "name": "Ajustar la seguridad jwt",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 14,
+      "name": "Permitir editar solo root",
+      "date": "2017-07-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 15,
+      "name": "Comprar USB",
+      "date": "2017-08-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 16,
+      "name": "Actualizar datos de usuario",
+      "date": "2017-10-07T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 17,
+      "name": "Comprar carpeta",
+      "date": "2017-10-05T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Marina",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 18,
+      "name": "Ver GOT",
+      "date": "2017-10-05T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 19,
+      "name": "Tender la ropa",
+      "date": "2017-10-07T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Maria",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 20,
+      "name": "Organizar estabilizador",
+      "date": "2017-10-06T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 21,
+      "name": "Pausa activa",
+      "date": "2017-10-11T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "Testing-Agregar Tarea",
+      "responsables": "Luisa",
+      "date": "2017-04-14T05:00:00.000Z",
+      "description": "Se deben hacer la prueba para verificar que la funcionalidad de Agregar tarea este funcionando correctamente",
+      "id": 22
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "Verificar funcionalidad",
+      "responsables": "Luisa",
+      "date": "04/16/2017",
+      "description": "Se debe de verificar que la funcionalidad de agregar tarea se este realizando correctamente",
+      "id": 23
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "Revisar Agregar Tarea",
+      "responsables": "Luisa",
+      "date": "2017-04-14T05:00:00.000Z",
+      "description": "Se debe de verificar que agregar tarea se este ejecutando exitosamente",
+      "id": 24
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "Validad password",
+      "responsables": "Luisa",
+      "date": "2017-04-14T05:00:00.000Z",
+      "description": "Realizar una expreción regular para validar formato de password requerido",
+      "id": 25
+    }
+  ]
+}

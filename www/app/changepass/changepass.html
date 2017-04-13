@@ -1,0 +1,9 @@
+<div ng-include="'app/template/header.html'"></div>
+<div class="container-table">
+	<h1>Cambiar contraseña</h1>
+	<form  ng-submit="vmChore.change()" >
+		<input type="password" placeholder="Contraseña" name="pass1" ng-model="vmChore.pass.pass1" pattern="(?=^.{8,}$)(?=.*\d)(?=.*\W+).*$" required  />		
+		<input type="password" placeholder="Repetir Contraseña" name="pass2" ng-model="vmChore.pass.pass2" pattern="(?=^.{8,}$)(?=.*\d)(?=.*\W+).*$" required  />	
+		<input type="submit" value="Aceptar" />
+	</form>
+</div>

@@ -1,0 +1,55 @@
+
+
+.header-login  .open-menu {
+	display: none;
+}
+
+.container-table{
+   
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: $bodySecond;
+
+    h1{
+      background: $primaryDark;
+      padding: 20px 0;
+      font-size: 140%;    
+      text-align: center;
+      color: #fff;
+      margin: -16px -16px 16px -16px;
+    }
+    input , textarea{      
+      outline: none;
+      box-sizing: border-box;      
+      width: 100%;
+      background: #fff;
+      margin-bottom: 4%;
+      border: 1px solid #ccc;
+      padding: 3%;
+      color: #555;
+    }
+   
+}
+input , textarea{      
+      outline: none;
+      box-sizing: border-box;      
+      width: 100%;
+      background: #fff;
+      margin-bottom: 4%;
+      border: 1px solid #ccc;
+      padding: 3%;
+      color: #555;
+    } 
+
+input[type="submit"],
+input[type="button"]{
+       
+        background: $primaryDark;
+        border-bottom: 2px solid $second;
+        color: #fff;
+    }
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: $primaryDark;
+}

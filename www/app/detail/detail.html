@@ -1,0 +1,11 @@
+<div ng-include="'app/template/header.html'"></div>
+<div class="container-table">
+	<h1> {{vmChore.chore.name}}</h1>
+	<label> <b>Responsables</b>: 
+	<input type="text"  ng-model="vmChore.chore.responsables"  disabled  />
+	<label> <b>Fecha limite</b>:</label>
+	<input type="text"  ng-model="vmChore.chore.date"  disabled  />
+	<label> <b>Descripción</b>:</label>
+	<textarea name="detalle" id="" cols="20" rows="5" ng-model="vmChore.chore.description" disabled></textarea>	
+	<input type="submit" value="Atrás" ng-click="vmChore.toBack()"/>
+</div>

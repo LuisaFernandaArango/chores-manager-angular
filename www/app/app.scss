@@ -1,0 +1,19 @@
+
+//variables
+//colors
+$primary: #6dcbd3;
+$primaryDark: #00838F;
+$second: #0097A7;
+$bodyPrimary: #fff;
+$bodySecond: #F7F7F7;
+
+//import all the scss templates to be proccess for gulp
+@import "login/login";
+@import "chores/chores";
+@import "general/general";
+@import "addchore/addchore";
+
+
+
+
+  

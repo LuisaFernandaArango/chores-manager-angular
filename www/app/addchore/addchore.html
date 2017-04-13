@@ -1,0 +1,14 @@
+<div ng-include="'app/template/header.html'"></div>
+<div class="container-table">
+	<h1>Agregar Tarea</h1>
+	<form  name="formRegisterChore" ng-submit="vmAddChore.addChore()" >
+		<input type="text" placeholder="Nombre de la tarea" name="name" ng-model="vmAddChore.newChore.name" required  />
+		
+		<input type="text" placeholder="Responsables" ng-model="vmAddChore.newChore.responsables"  required  />
+		<input  type="date" placeholder="MM/DD/AAAA" ng-model="vmAddChore.newChore.date" required />
+		
+		<textarea name="detalle" id="" cols="20" rows="5" ng-model="vmAddChore.newChore.description" placeholder="Descripción" required></textarea>	
+		
+		<input type="submit" value="Aceptar" />
+	</form>
+</div>

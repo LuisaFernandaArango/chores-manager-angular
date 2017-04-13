@@ -1,0 +1,39 @@
+<div ng-include="'app/template/header.html'"></div>
+	<div class="container-table other" >
+		<div class="title-pag">
+		   <h2>Tareas pendientes</h2>
+		</div>
+		<div class="search ">
+			<input type="text" class ="search-bar" ng-model="chore.query" placeholder="Buscar">
+		</div>	
+		<div class="container-flex" ng-if="vmChore.chore.length<=0" >
+			<h4>No hay Tareas Pendientes</h4>
+		</div>			
+		<div class="container-flex">
+				<div class="item" ng-repeat = "chore in vmChore.chore | filter:{'name':  chore.query} " ng-click="chore.viewDetail(chore)" >
+				
+				<div class="title" ng-click="vmChore.detail(chore)">
+					<img src="https://www.controldetiempos.com/images/iconos/control-tareas.png" style="width:30%">
+					<h3> {{chore.name}}</h3>
+					
+				</div>
+				<div class="container-flex">
+					<div class="item-icon" ng-click="vmChore.finish(chore)">
+						<i class="material-icons" >check_circle</i>
+					</div>
+					<div class="item-icon" ng-click="vmChore.edit(chore)">
+						<i class="material-icons">mode_edit</i>
+					</div>
+				</div>
+						
+			</div>
+		</div>
+		
+		<div class="load-more" ng-if="vmChore.choresAvailable" ng-click="vmChore.loadMoreChores()">
+			<i class="material-icons">add_circle</i>
+			<label >Cargar Más</label>
+		</div>
+
+	</div>
+
+</div>
